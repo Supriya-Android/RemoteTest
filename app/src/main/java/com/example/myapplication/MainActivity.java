@@ -12,11 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        name_iv=findViewById(R.id.name_iv);
-        number_iv=findViewById(R.id.number_iv);
-        String name=Myclass.getName();
-        name_iv.setText(name);
-        int number=Myclass.getNumber();
-        number_iv.setText(number);
+//        name_iv=findViewById(R.id.name_iv);
+//        String name=Myclass.getName();
+//        name_iv.setText(name);
     }
 }
